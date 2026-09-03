@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RizzKey for Chrome — Privacy Policy</title>
+<meta name="description" content="RizzKey for Chrome collects no data. Your API key and your conversations stay in your browser.">
+<style>
+  :root {
+    --pink: #ff3b7f;
+    --pink-deep: #e6197a;
+    --peach: #ff9e6d;
+    --ink: #1c1b20;
+    --ink-soft: #55525e;
+    --paper: #ffffff;
+    --mist: #f7f5f8;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--ink);
+    background: var(--mist);
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .hero {
+    background: linear-gradient(160deg, var(--pink) 0%, #ff6a6a 55%, var(--peach) 100%);
+    padding: 72px 24px 64px;
+    text-align: center;
+    color: #fff;
+  }
+  .hero .logo {
+    display: inline-flex; align-items: center; gap: 10px;
+    font-weight: 800; font-size: 22px; letter-spacing: -0.02em;
+  }
+  .hero .logo .mark {
+    width: 40px; height: 40px; border-radius: 12px;
+    background: rgba(255,255,255,0.22);
+    display: inline-flex; align-items: center; justify-content: center; font-size: 20px;
+  }
+  .hero h1 { font-size: clamp(30px, 5vw, 44px); font-weight: 800; letter-spacing: -0.03em; margin-top: 28px; }
+  .hero p.sub { margin-top: 12px; font-size: 17px; opacity: 0.95; max-width: 560px; margin-left: auto; margin-right: auto; }
+  .hero .badge {
+    display: inline-flex; align-items: center; gap: 8px;
+    margin-top: 26px; padding: 10px 18px; border-radius: 999px;
+    background: rgba(255,255,255,0.18);
+    border: 1px solid rgba(255,255,255,0.35);
+    font-weight: 600; font-size: 15px;
+  }
+
+  main { max-width: 720px; margin: -36px auto 0; padding: 0 20px 80px; position: relative; }
+  .card {
+    background: var(--paper);
+    border-radius: 20px;
+    padding: 36px 32px;
+    box-shadow: 0 12px 40px rgba(230, 25, 122, 0.10);
+  }
+  @media (max-width: 600px) { .card { padding: 28px 22px; } }
+
+  .summary {
+    border-left: 4px solid var(--pink);
+    background: #fff5f9;
+    padding: 18px 20px;
+    border-radius: 0 12px 12px 0;
+    font-size: 16px;
+    margin-bottom: 34px;
+  }
+  .summary strong { color: var(--pink-deep); }
+
+  h2 {
+    font-size: 20px; font-weight: 800; letter-spacing: -0.01em;
+    margin: 38px 0 12px; display: flex; align-items: center; gap: 10px;
+  }
+  h2:first-of-type { margin-top: 6px; }
+  h2 .ico { font-size: 18px; }
+  h3 { font-size: 16px; font-weight: 700; margin: 20px 0 6px; }
+  p { font-size: 16px; color: var(--ink-soft); margin-bottom: 12px; }
+  ul { margin: 8px 0 16px 20px; }
+  li { font-size: 16px; color: var(--ink-soft); margin-bottom: 7px; }
+  li strong { color: var(--ink); }
+  a { color: var(--pink-deep); text-decoration: none; border-bottom: 1px solid rgba(230,25,122,0.3); }
+  a:hover { border-bottom-color: var(--pink-deep); }
+
+  .no-list { list-style: none; margin-left: 0; }
+  .no-list li { padding-left: 28px; position: relative; }
+  .no-list li::before {
+    content: "✕"; position: absolute; left: 0; top: 1px;
+    color: var(--pink-deep); font-weight: 800; font-size: 13px;
+  }
+  .yes-list { list-style: none; margin-left: 0; }
+  .yes-list li { padding-left: 28px; position: relative; }
+  .yes-list li::before {
+    content: "✓"; position: absolute; left: 0; top: 1px;
+    color: #1fa860; font-weight: 800;
+  }
+
+  .divider { height: 1px; background: #efeaf0; margin: 34px 0 0; }
+  .meta { margin-top: 30px; font-size: 14px; color: #8b8794; text-align: center; }
+  .meta p { font-size: 14px; color: #8b8794; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="logo"><span class="mark">✨</span> RizzKey for Chrome</div>
+  <h1>Privacy Policy</h1>
+  <p class="sub">We built RizzKey around one rule: your conversations are yours.</p>
+  <div class="badge">🔒 RizzKey collects no data — no analytics, no ads, no tracking</div>
+</header>
+
+<main>
+  <div class="card">
+
+    <div class="summary">
+      <strong>The short version:</strong> RizzKey has no servers, no accounts and no analytics.
+      Your API key, your settings and your messages stay in your browser.
+      When you ask for an AI reply, your request goes <strong>directly from your browser to the AI provider you chose</strong> — we never see it.
+    </div>
+
+    <h2><span class="ico">🎯</span> Overview</h2>
+    <p>This policy explains what information the RizzKey browser extension ("the extension") handles, how it is stored, and what leaves your device (spoiler: only what you send to your own AI provider).
+    It applies to the RizzKey extension for Chrome and other Chromium browsers, including its in-page panel, popup and settings page.</p>
+
+    <h2><span class="ico">🚫</span> What we do NOT collect</h2>
+    <ul class="no-list">
+      <li><strong>No analytics or usage statistics</strong> — the extension contains no analytics SDKs.</li>
+      <li><strong>No advertising</strong> — there are no ads and no ad SDKs.</li>
+      <li><strong>No tracking or profiling</strong> — no trackers, no fingerprints, no identifiers.</li>
+      <li><strong>No accounts</strong> — the extension never asks you to sign up or log in.</li>
+      <li><strong>No message logs</strong> — we have no servers, so there is nothing for your conversations to be sent to.</li>
+      <li><strong>No purchase data</strong> — the extension contains no purchases or payment processing.</li>
+    </ul>
+
+    <h2><span class="ico">🌐</span> Where the extension runs and what it reads</h2>
+    <p>RizzKey's panel is injected as a content script on popular chat sites (WhatsApp Web, Instagram, Messenger, Telegram Web, X, Discord, Tinder and Bumble), so you can generate replies without leaving the chat:</p>
+    <ul>
+      <li><strong>When you open the panel</strong>, it reads the last visible incoming message on that page — only to pre-fill the reply box. You can always see and edit that text before generating a reply.</li>
+      <li><strong>When you tap Insert</strong>, the chosen text is typed into the chat's input box of the page you are on.</li>
+      <li>Nothing is read or sent while the panel is closed. The extension does not monitor keystrokes, and it does not continuously observe page content.</li>
+      <li>Apart from the providers below, the extension requests <strong>no other network access</strong>.</li>
+    </ul>
+
+    <h2><span class="ico">📱</span> What is stored on your device</h2>
+    <p>The following is kept in the extension's local storage in your browser, is never uploaded by us, and is removed when you remove the extension:</p>
+    <ul>
+      <li>Your AI provider settings: <strong>API key, base URL and model name</strong> (entered by you in Settings).</li>
+      <li>Preferences: default vibe, optional first names you enter to personalize replies.</li>
+      <li>The last message you pasted into the panel, and your starred phrases.</li>
+    </ul>
+
+    <h2><span class="ico">🤖</span> How AI requests work</h2>
+    <p>RizzKey works in a bring-your-own-key model. When you generate a reply:</p>
+    <ul>
+      <li>The message you copied or pasted, together with your current draft, is sent <strong>directly from your browser</strong> over HTTPS to the AI provider <strong>you</strong> configured (for example OpenAI, DeepSeek, Groq or OpenRouter).</li>
+      <li>Your API key is sent only to that provider, as required to authenticate the request.</li>
+      <li><strong>We never see, relay, store or process any of this.</strong> RizzKey operates no backend servers.</li>
+      <li>When you save your settings, Chrome asks you to grant network access to that provider's domain. You can revoke it at any time from the extension's "Site access" settings.</li>
+      <li>How that provider handles your request is governed by the provider's own privacy policy.</li>
+    </ul>
+
+    <h2><span class="ico">🧒</span> Children</h2>
+    <p>RizzKey is intended for adults (18+) and is not directed at children. We do not knowingly collect any personal information from anyone, including children.</p>
+
+    <h2><span class="ico">🗑️</span> Your control</h2>
+    <ul class="yes-list">
+      <li>Clear your API key or any field at any time in the extension's Settings.</li>
+      <li>Revoke the extension's access to a provider domain at any time via Chrome's extension settings.</li>
+      <li>Remove the extension to delete every piece of locally stored data — instantly and completely.</li>
+    </ul>
+
+    <h2><span class="ico">🔄</span> Changes to this policy</h2>
+    <p>If we ever change this policy, we will update this page and the "effective" date below. Since the extension collects no data, material changes to the policy are unlikely.</p>
+
+    <h2><span class="ico">✉️</span> Contact</h2>
+    <p>If you have questions about this policy, contact us at <a href="mailto:1992gengguangyao-stack@users.noreply.github.com">1992gengguangyao-stack@users.noreply.github.com</a>.</p>
+
+    <div class="divider"></div>
+    <div class="meta">
+      <p>Effective date: September 2, 2026 · RizzKey for Chrome</p>
+    </div>
+  </div>
+</main>
+
+</body>
+</html>
